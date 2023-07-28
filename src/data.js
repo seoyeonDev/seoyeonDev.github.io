@@ -1,15 +1,15 @@
 import * as icon  from 'react-icons/si'
 
 const profile = {
-	name: 'Carlos Montenegro',
-	role: 'Front End Developer',
-	description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed facere, itaque excepturi, necessitatibus cum ex nisi.',
+	name: 'Lee Seoyeon',
+	role: 'Back End Developer',
+	description: 'Hi',
 };
 
 const social = [
-	{ icon: icon.SiGithub, link: 'https://github.com' },
-	{ icon: icon.SiCodepen, link: 'https://www.medium.com/' },
-	{ icon: icon.SiTwitter, link: 'https://www.twitter.com/' },
+	{ icon: icon.SiGithub, link: 'https://github.com/seoyeonDev' },
+	{ icon: icon.SiTistory, link: 'https://skylarcoding.tistory.com/' },
+	{ icon: icon.SiMaildotru, link: 'mailto:skylarlee1003@gmail.com' },
 	{ icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
 ];
 
@@ -18,8 +18,8 @@ const brand = 'Singleton'
 
 const work = [
 	{
-		name: 'Todo app',
-		description: 'Phasellus metus mi, scelerisque eu volutpat non, posuere et massa. Nunc hendrerit, augue non fringilla mattis.',
+		name: 'Plan + tiful',
+		description: 'Hi.',
 		stack: [
 			{ icon: icon.SiHtml5, name: 'HTML' },
 			{ icon: icon.SiCss3, name: 'CSS' },
@@ -30,7 +30,7 @@ const work = [
 		linkGithub: 'https://github.com',
 	},
 	{
-		name: 'Pokedex',
+		name: 'Irang',
 		description: 'Etiam eget volutpat risus. Nam magna bibendum a metus dignissim, id eleifend libero luctus molestie eget.',
 		stack: [
 			{ icon: icon.SiHtml5, name: 'HTML' },
@@ -42,7 +42,7 @@ const work = [
 		linkGithub: 'https://github.com',
 	},
 	{
-		name: 'E-Commerce',
+		name: '냉장고를 부탁해',
 		description: 'Nullam id mauris auctor, sollicitudin sapien id, sagittis turpis proin et nunc sempe, venenatis erat.',
 		stack: [
 			{ icon: icon.SiHtml5, name: 'HTML' },
