@@ -1,15 +1,15 @@
 import * as icon  from 'react-icons/si'
 
 const profile = {
-	name: 'Carlos Montenegro',
-	role: 'Front End Developer',
-	description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed facere, itaque excepturi, necessitatibus cum ex nisi.',
+	name: 'Lee Seoyeon',
+	role: 'Back End Developer',
+	description: '',
 };
 
 const social = [
-	{ icon: icon.SiGithub, link: 'https://github.com' },
-	{ icon: icon.SiCodepen, link: 'https://www.medium.com/' },
-	{ icon: icon.SiTwitter, link: 'https://www.twitter.com/' },
+	{ icon: icon.SiGithub, link: 'https://github.com/seoyeonDev' },
+	{ icon: icon.SiTistory, link: 'https://skylarcoding.tistory.com/' },
+	{ icon: icon.SiMaildotru, link: 'mailto:skylarlee1003@gmail.com' },
 	{ icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
 ];
 
