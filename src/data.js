@@ -1,4 +1,7 @@
 import * as icon  from 'react-icons/si'
+import * as iconbi  from 'react-icons/bi'
+import * as iconri  from 'react-icons/ri'
+import * as iconbs  from 'react-icons/bs'
 
 const profile = {
 	name: 'Lee Seoyeon',
@@ -13,21 +16,25 @@ const social = [
 	{ icon: icon.SiInstagram, link: 'https://www.instagram.com/' },
 ];
 
-const brand = 'Singleton'
+const brand = 'Lee Seoyeon'
 
 
 const work = [
 	{
 		name: 'Plan + tiful',
-		description: 'Hi.',
+		description: '',
 		stack: [
+			{ icon: icon.SiSpringboot, name: 'Springboot' },
+			{ icon: iconbi.BiLogoJava, name: 'Java' },
 			{ icon: icon.SiHtml5, name: 'HTML' },
 			{ icon: icon.SiCss3, name: 'CSS' },
 			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiReact, name: 'ReactJS' },
+			{ icon: icon.SiBootstrap, name: 'Bootstrap' },
+			{ icon: iconri.RiVuejsFill, name: 'Vuejs' },
+			{ icon: icon.SiOracle, name: 'Oracle' },
 		],
-		linkProject: 'https://example.com',
-		linkGithub: 'https://github.com',
+		linkProject: 'https://drive.google.com/file/d/14yGWbgVBy0bRb0KqoKBZmiB3KtPRB0K3/view?usp=sharing',
+		linkGithub: 'https://github.com/seoyeonDev/Plantiful',
 	},
 	{
 		name: 'Irang',
@@ -76,24 +83,32 @@ const stack = [
 			{ icon: icon.SiCss3, name: 'CSS' },
 			{ icon: icon.SiBootstrap, name: 'Bootstrap', },
 			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiTypescript, name: 'Typescript' },
-			{ icon: icon.SiReact, name: 'React', },
+			{ icon: iconri.RiVuejsFill, name: 'Vue.js' },
+			{ icon: icon.SiJquery, name: 'JQuery', },
 		],
 	},
 	{
 		name: 'Back End',
 		items: [
-			{ icon: icon.SiNodedotjs, name: 'NodeJS' },
-			{ icon: icon.SiDeno, name: 'Deno' },
-			{ icon: icon.SiMongodb, name: 'MongoDB', },
-			{ icon: icon.SiFirebase, name: 'Firebase', },
+			{ icon: icon.SiSpringboot, name: 'Spring Boot' },
+			{ icon: icon.SiOracle, name: 'Oracle' },
+			{ icon: iconbi.BiLogoJava, name: 'Java', },
+		],
+	},
+	{
+		name: 'Etc',
+		items: [
+			{ icon: iconbs.BsGithub, name: 'GitHub' },
+			{ icon: icon.SiNotion, name: 'Notion' },
+			{ icon: icon.SiVisualstudiocode, name: 'Visual Studio Code', },
+			{ icon: icon.SiEclipseide, name: 'Eclipse' },
 		],
 	},
 ]
 
 const contact = {
-	description: 'Tenetur laudantium? Aliquid ipsum perferendis blanditiis non. Adipisci eos numquam reiciendis, rerum, quo similique reprehenderit. Adipisci eos numquam reiciendis',
-	email: 'example@email.com'
+	description: 'Hi. This is my email. If you want to connect me, please feel free to send it.',
+	email: 'skylarlee1003@email.com'
 }
 
 export { profile, social, work, stack, contact, brand }
