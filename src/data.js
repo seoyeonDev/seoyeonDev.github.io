@@ -22,7 +22,7 @@ const brand = 'Lee Seoyeon'
 const work = [
 	{
 		name: 'Plan + tiful',
-		description: '',
+		description: 'Vue.js, SpringBoot를 메인으로 하여 만든 서비스입니다. RestApi, JPA 등을 사용하였습니다.',
 		stack: [
 			{ icon: icon.SiSpringboot, name: 'Springboot' },
 			{ icon: iconbi.BiLogoJava, name: 'Java' },
@@ -38,19 +38,22 @@ const work = [
 	},
 	{
 		name: 'Irang',
-		description: 'Etiam eget volutpat risus. Nam magna bibendum a metus dignissim, id eleifend libero luctus molestie eget.',
+		description: 'Java, SpringBoot, BootStrap, Oracle, JSP 등을 이용하여 만든 서비스입니다. ',
 		stack: [
+			{ icon: icon.SiSpringboot, name: 'SpringBoot' },
+			{ icon: iconbi.BiLogoJava, name: 'Java' },
 			{ icon: icon.SiHtml5, name: 'HTML' },
 			{ icon: icon.SiCss3, name: 'CSS' },
 			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiReact, name: 'ReactJS' },
+			{ icon: icon.SiBootstrap, name: 'Bootstrap' },
+			{ icon: icon.SiOracle, name: 'Oracle' },
 		],
 		linkProject: 'https://example.com',
-		linkGithub: 'https://github.com',
+		linkGithub: 'https://github.com/seoyeonDev/Irang',
 	},
 	{
 		name: '냉장고를 부탁해',
-		description: 'Nullam id mauris auctor, sollicitudin sapien id, sagittis turpis proin et nunc sempe, venenatis erat.',
+		description: 'Java, Oracle 등을 사용하여 만든 서비스입니다.',
 		stack: [
 			{ icon: icon.SiHtml5, name: 'HTML' },
 			{ icon: icon.SiCss3, name: 'CSS' },
@@ -60,18 +63,18 @@ const work = [
 		linkProject: 'https://example.com',
 		linkGithub: 'https://github.com',
 	},
-	{
-		name: 'Twitter clon',
-		description: 'Cras leo mauris, gravida vel lectus ac, congue luctus odio. Sed varius varius est eget convallis sagittis sit amet.',
-		stack: [
-			{ icon: icon.SiHtml5, name: 'HTML' },
-			{ icon: icon.SiCss3, name: 'CSS' },
-			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiReact, name: 'ReactJS' },
-		],
-		linkProject: 'https://example.com',
-		linkGithub: 'https://github.com',
-	},
+	// {
+	// 	name: 'Twitter clon',
+	// 	description: 'Cras leo mauris, gravida vel lectus ac, congue luctus odio. Sed varius varius est eget convallis sagittis sit amet.',
+	// 	stack: [
+	// 		{ icon: icon.SiHtml5, name: 'HTML' },
+	// 		{ icon: icon.SiCss3, name: 'CSS' },
+	// 		{ icon: icon.SiJavascript, name: 'Javascript' },
+	// 		{ icon: icon.SiReact, name: 'ReactJS' },
+	// 	],
+	// 	linkProject: 'https://example.com',
+	// 	linkGithub: 'https://github.com',
+	// },
 ]
 
 
