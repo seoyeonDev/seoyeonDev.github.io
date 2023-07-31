@@ -61,7 +61,7 @@ const work = [
 			{ icon: icon.SiReact, name: 'ReactJS' },
 		],
 		linkProject: 'https://example.com',
-		linkGithub: 'https://github.com',
+		linkGithub: 'https://github.com/seoyeonDev/manage-refrigerator',
 	},
 	// {
 	// 	name: 'Twitter clon',
