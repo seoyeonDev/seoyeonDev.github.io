@@ -58,7 +58,7 @@ const work = [
 			{ icon: icon.SiHtml5, name: 'HTML' },
 			{ icon: icon.SiCss3, name: 'CSS' },
 			{ icon: icon.SiJavascript, name: 'Javascript' },
-			{ icon: icon.SiReact, name: 'ReactJS' },
+			{ icon: iconbi.BiLogoJava, name: 'Java' },
 		],
 		linkProject: 'https://example.com',
 		linkGithub: 'https://github.com/seoyeonDev/manage-refrigerator',
