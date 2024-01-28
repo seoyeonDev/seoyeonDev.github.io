@@ -5,8 +5,8 @@ import * as iconbs  from 'react-icons/bs'
 
 const profile = {
 	name: 'Lee Seoyeon',
-	role: 'Back End Developer',
-	description: 'Hi',
+	role: 'Full Stack Developer',
+	description: 'Hi, I'm Seoyeon Lee.',
 };
 
 const social = [
